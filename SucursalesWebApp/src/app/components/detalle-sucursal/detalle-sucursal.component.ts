@@ -55,8 +55,7 @@ export class DetalleSucursalComponent {
 
   ObtenerInfo(){
     this.service.ObtenerInfo(this.idSucursal).subscribe((res:any) =>{
-      if(res.data != null){
-        debugger;
+      if(res.data != null){        
         this.sucursal = res.data;
         this.formSucursal.setValue({
           codigo:this.sucursal.codigo,
