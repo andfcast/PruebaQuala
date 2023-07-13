@@ -1,0 +1,15 @@
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\bin\Debug\net6.0\SucursalesUtils.deps.json
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\bin\Debug\net6.0\SucursalesUtils.dll
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\bin\Debug\net6.0\SucursalesUtils.pdb
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\bin\Debug\net6.0\SucursalesEntities.dll
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\bin\Debug\net6.0\SucursalesEntities.pdb
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.csproj.AssemblyReference.cache
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.GeneratedMSBuildEditorConfig.editorconfig
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.AssemblyInfoInputs.cache
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.AssemblyInfo.cs
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.csproj.CoreCompileInputs.cache
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.csproj.CopyComplete
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.dll
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\refint\SucursalesUtils.dll
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\SucursalesUtils.pdb
+D:\Pruebas\PruebaQuala_AndresCastaneda\SucursalesUtils\obj\Debug\net6.0\ref\SucursalesUtils.dll

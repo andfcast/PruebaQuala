@@ -1,0 +1,34 @@
+CREATE TABLE [dbo].[AC_Sucursal](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Codigo] [int] NOT NULL,
+	[Descripcion] [nvarchar](250) NOT NULL,
+	[Direccion] [nvarchar](250) NOT NULL,
+	[Identificacion] [nvarchar](50) NOT NULL,
+	[FechaCreacion] [datetime] NOT NULL,
+	[IdMoneda] [int] NOT NULL,
+ CONSTRAINT [PK_AC_Sucursal] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+CREATE TABLE [dbo].[AC_Moneda](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Abreviacion] [nvarchar](3) NOT NULL,
+	[Nombre] [nvarchar](50) NOT NULL,
+ CONSTRAINT [PK_AC_Moneda] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+INSERT INTO AC_Moneda VALUES('COP',	'Peso Colombiano')
+INSERT INTO AC_Moneda VALUES('USD',	'Dólar')
+INSERT INTO AC_Moneda VALUES('EUR',	'Euro')
+INSERT INTO AC_Moneda VALUES('GBP',	'Libra Esterlina')
+INSERT INTO AC_Moneda VALUES('JPY',	'Yen Japonés')
+INSERT INTO AC_Moneda VALUES('MXN',	'Peso Mexicano')
+INSERT INTO AC_Moneda VALUES('PEN',	'Nuevo Sol Peruano')
+INSERT INTO AC_Moneda VALUES('CHF',	'Franco Suizo')
